@@ -11,10 +11,10 @@ Smart Study Planner is a web-based application designed to help students manage 
 - Notification System
 
 ## Team Members
-- [Name 1] – Backend Development
-- [Name 2] – Frontend Development
-- [Name 3] – Weekly Plan Algorithm
-- [Name 4] – Testing & Documentation
+- [Berfin Nazlıcan Öztürk] – Backend Development
+- [Damla Daştan] – Frontend Development
+- [Fatma Nur Çetinkaya] – Weekly Plan Algorithm
+- [İbrahim Direk] – Testing & Documentation
 
 ## Project Management
 Task management was handled using Jira. The instructor was added as a watcher to monitor progress.

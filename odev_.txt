@@ -1,0 +1,162 @@
+
+
+1.Executive summary
+Introduction:Smart Study Planner is a web-based planning solution created through our group work.
+
+Students may forget their assignments, schedules can be confusing, studying can become inefficient, and some students may not have enough storage space on their phones.
+
+Solution: web-based planning system
+Notification will be sent via reminder or SMS method
+Technology:modern web technologies
+
+2.Product description and vision 
+Problem
+Our problem: Students may forget their assignments, schedules can be confusing, studying can become inefficient, and some students may not have enough storage space on their phones.
+
+Solution
+Web-based
+Email/SMS reminder
+Adding courses
+Creating tasks
+Deadline tracking
+Creating study schedules
+Target audience: University students
+Students/teachers with busy schedules
+Individuals who cannot manage their time
+
+For those who experience stress and panic due to a heavy course load and cannot manage their schedule
+
+3. CORE Features
+Actions that can be performed in the system:
+User Registration and login; can create an account, register, log in, create an account with email and password
+Adding courses,
+Can add courses and edit their times,
+Task management:
+Users can create assignments and tasks
+Weekly/monthly study planner;
+Can create a weekly/monthly study plan
+Reminder system:
+Email/SMS is sent to the user upon request when the deadline approaches
+Reminders can be sent when class times approach
+When the required class time in the study plan approaches
+Security: Users use a secure login system.
+
+4. Technical Architecture
+How the system works
+
+Architecture
+Client-Server Architecture
+Layers
+Frontend: The web interface that users see
+Backend:
+Where the logic of the work running in the background is executed
+Data flow:
+1. User adds tasks/assignments/lessons
+2. Data is sent to the backend
+3. Backend saves to the database
+4. The system returns a success message to the user
+
+5. Technology Stack
+
+Technologies we use
+FRONTEND:
+HTML
+CSS
+JavaScript
+Backend:
+Python
+
+Database: MySQL
+
+Tools
+Github
+VS Code
+
+6. Security Architecture
+
+Authorization: User logs in with email and password
+Password security: Passwords are securely stored in the database
+Authorization: Only the admin can access the management panel
+Data Security:
+The database can be backed up regularly
+
+7. Role management
+Admin:
+Users Managing
+Controlling the System
+User:
+Adding Courses
+Creating Tasks/Assignments/Schedules
+Viewing Your Plan
+
+8. Clearance Levels
+
+Level 0 - Visitor
+Only viewing the site
+Level 1 - Registered USER
+Creating a plan
+Level 2 - Admin
+Managing the system
+
+9. UX/UI
+Design Decisions
+Clear/clean, user-friendly interface
+Minimal elegant design
+Pastel tone design
+Responsive design
+Compatibility
+
+10. Installation and Deployment
+Requirements:
+MySQL
+Git
+
+1. Repository is cloned
+2. Dependencies are installed
+3. Database is created
+4. Application is run
+
+11. Integration
+Email integration
+In the future:
+Google calendar integration
+Use in business
+
+12. Competitive Analysis
+Competitors;
+Excel
+Google Calendar
+Notion
+Todo apps
+
+Our Difference
+Automatic reminders
+Academically focused
+Web-based
+Doesn't take up much space on the device
+Easy to use
+
+13. Commercial Model
+Basic plan:
+Free
+
+Pro plan:
+Monthly subscription
+
+Institution plan:
+For universities
+
+14. Technical Requirements
+Server:
+Linux server
+4GB RAM
+Client:
+Modern web browser
+Chrome/Safari
+Internet connection required
+
+15.Contact
+Fatma Nur Çetinkaya
+Berfin Nazlıcan Öztürk
+Damla Daştan
+İbrahim Direk

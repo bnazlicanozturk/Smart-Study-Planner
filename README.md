@@ -38,3 +38,28 @@ The UML diagram included in this repository shows the relationships between the 
 Purpose of the Project
 
 The main purpose of this project is to practice software design and system modeling. By developing this planner, we aimed to better understand how different components of a system interact and how UML diagrams can be used to represent software structure.
+MVP source code
+Login system: username/password screen
+Task management: users can create work plans and add specific tasks to them
+Tracking: The system shows progress as a percentage based on the number of completed tasks
+
+Sprint Board
+We managed the project development process through GitHub Projects. We organized it into to-do, ongoing, and completed tasks. We could easily see which stage we were in. We used the Agile method.
+
+Link: https://github.com/users/bnazlicanozturk/projects/2/views/1
+
+CI/CD
+We used GitHub Actions in the project. This system automatically checks whether the code has errors each time we upload it (Build check).
+We ensure that the code is always working.
+
+Documentation
+We used UML Class Diagrams when designing the system.
+We have schematized the communication between classes such as User, StudyPlan, Task, and ProgressTracker. It is available in the relevant file.
+Risk updates
+Data storage: All study plans are deleted when the user closes the browser
+Time management: We kept it simple in the MVP (UI) phase, focusing on the main functions
+
+Demo plan
+Login screen
+We will create a plan called "Final Week" and add tasks
+We will show how the progress section changes as we complete tasks

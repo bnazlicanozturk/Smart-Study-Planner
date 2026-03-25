@@ -1,65 +1,106 @@
-Smart Study Planner
-Project Description
+# Smart Study Planner
 
-Smart Study Planner is a simple tool designed to help students organize their study schedules more easily. Many students struggle with managing their time and keeping track of their tasks, especially during busy academic periods. The goal of this project is to create a system where students can plan their study activities, set tasks, and monitor their progress in a more structured way.
+## Team Members
 
-The system allows users to create study plans, add tasks to those plans, and set reminders for important deadlines. It also provides a basic progress tracking feature so users can see how much of their study plan they have completed.
+- Berfin Nazlıcan Ozturk  
+- Fatma Nur Çetinkaya
+- İbrahim Direk
+- Damla Daştan
 
-This project was developed as part of a coursework assignment and focuses on demonstrating basic system design concepts such as UML modeling and data organization.
+---
 
-Main Features
+## Project Description
 
-Creating and managing study plans
+Smart Study Planner is a simple tool that helps students organize their study time. Many students have problems with time management and tracking their tasks, especially during exam periods.
 
-Adding and editing study tasks
+The aim of this project is to create a system where students can plan their study, add tasks, and follow their progress in an easy way.
 
-Setting reminders for tasks
+In this system, users can create study plans, add tasks, and track how much work they have completed.
 
-Tracking study progress
+This project was developed for a coursework assignment and focuses on basic system design and UML modeling.
 
-System Components
+---
 
-The system is built around several main components:
+## Main Features
 
-User: Represents the student using the system. Users can create and manage their study plans.
+- Create and manage study plans  
+- Add and edit study tasks  
+- Track study progress  
+- Simple and easy to use system  
 
-StudyPlan: Stores the overall study schedule including start and end dates.
+---
 
-Task: Represents individual study activities that belong to a study plan.
+## System Components
 
-Reminder: Helps notify users about upcoming tasks or deadlines.
+The system includes these main parts:
 
-ProgressTracker: Calculates and shows how much of the study plan has been completed.
+- **User:** Represents the student. The user can create and manage study plans  
+- **StudyPlan:** Stores the study schedule  
+- **Task:** Represents each study activity  
+- **ProgressTracker:** Shows how much of the plan is completed  
 
-UML Diagram
+---
 
-The UML diagram included in this repository shows the relationships between the main system classes and how they interact with each other.
+## UML Diagram
 
-Purpose of the Project
+The UML diagram in this project shows how the system components are connected and how they work together.
 
-The main purpose of this project is to practice software design and system modeling. By developing this planner, we aimed to better understand how different components of a system interact and how UML diagrams can be used to represent software structure.
-MVP source code
-Login system: username/password screen
-Task management: users can create work plans and add specific tasks to them
-Tracking: The system shows progress as a percentage based on the number of completed tasks
+---
 
-Sprint Board
-We managed the project development process through GitHub Projects. We organized it into to-do, ongoing, and completed tasks. We could easily see which stage we were in. We used the Agile method.
+## Purpose of the Project
 
-Link: https://github.com/users/bnazlicanozturk/projects/2/views/1
+The main goal of this project is to practice software design and system modeling. It also helps us understand how different parts of a system work together.
 
-CI/CD
-We used GitHub Actions in the project. This system automatically checks whether the code has errors each time we upload it (Build check).
-We ensure that the code is always working.
+---
 
-Documentation
-We used UML Class Diagrams when designing the system.
-We have schematized the communication between classes such as User, StudyPlan, Task, and ProgressTracker. It is available in the relevant file.
-Risk updates
-Data storage: All study plans are deleted when the user closes the browser
-Time management: We kept it simple in the MVP (UI) phase, focusing on the main functions
+## MVP Source Code
 
-Demo plan
-Login screen
-We will create a plan called "Final Week" and add tasks
-We will show how the progress section changes as we complete tasks
+The project includes a basic working version:
+
+- Login system (username and password)  
+- Task management (create plans and add tasks)  
+- Progress tracking (shows percentage of completed tasks)  
+
+---
+
+## Sprint Board
+
+We used GitHub Projects to manage our tasks.  
+We divided the work into To Do, In Progress, and Done.
+
+Project Board Link:  
+https://github.com/users/bnazlicanozturk/projects/2/views/1
+
+---
+
+## CI/CD
+
+We used GitHub Actions for CI/CD.  
+The system runs automatically when we push code and checks for errors.
+
+You can find the configuration in:  
+.github/workflows/main.yml
+
+---
+
+## Documentation
+
+We used UML Class Diagrams to design the system.  
+The diagram shows the relationship between User, StudyPlan, Task, and ProgressTracker.
+
+---
+
+## Risk Updates
+
+- **Data storage:** Study plans are not saved permanently  
+- **Time management:** We focused on basic features for the MVP  
+
+---
+
+## Demo Plan
+
+- Show login screen  
+- Create a study plan called "Final Week"  
+- Add tasks to the plan  
+- Complete some tasks  
+- Show progress percentage change  
